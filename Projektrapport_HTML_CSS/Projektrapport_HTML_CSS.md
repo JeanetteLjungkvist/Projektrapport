@@ -8,7 +8,6 @@
 
 <br>
 
-*****
 ## HTTP
 
 Tidslinje på hela konversationen mellan webläsaren och servern för URL http://127.0.0.1:5500/Products/
@@ -50,7 +49,6 @@ Och slutligen så frågar den efter javascript filen.
 <br>
 Webläsaren fortsätter att skicka requests fram tills dess att den har fått all information den behöver för att bygga hemsidan.
 
-*****
 ## URL
 
 http://127.0.0.1:5500/Products/ <br>
@@ -67,14 +65,12 @@ Path: **/Products**
 
 Path är den sökväg som används för att komma åt en specifik sida eller fil som finns på den domän man försöker besöka. I mitt fall är det /Products som besöks för att komma åt våra utbildningar som finns på vår hantverkarskola.
 
-*****
 ## SEO
 
 Våran grupp valde att använda oss av sökorden **Utbildning, Hantverk och Göteborg**. Det kändes som an dessa orden va dom mest logiska orden man skulle använda om man ville hitta till våran skola. Jag har testat att googla på just dessa orden och stadsnamn och då hittat olika olika skolor som t.ex. yrkeshögskolor. 
 
 På mina fyra sidor så har jag istället för att använda mig av lorem så kopierade jag utbildningsbeskrivningar m.m. från andra skolsidor och sedan anpassat dom utefter våran information. Det är dock väldigt svårt att få in vissa ord i texten utan att det blir repeterande så har då sett till att det finns andra ord där ordet ingår t.ex **hantverk**et, glas**hantverk** och **hantverk**stekniker. Har haft lite svårt för att hitta om detta är ett korrekt sätt att använda SEO då det står olika på alla sidor man kollar upp.
 
-*****
 ## Wireframes
 
 **Huvudutbildningssidan Desktopversion**
@@ -99,7 +95,6 @@ Tanken med denna layouten va att när man går över i mobilvy så skalas bara b
 <br>
 <img src="img/utbildningsbeskrivning_desktop-mobile.png" width="500"/>
 
-*****
 ## Reflektion över lösningar 
 
 Jag hade ansvaret för produktsidorna, eller i vårt fall utbildningssidorna då vi valde att göra en hemsida för en yrkeshögskola.
