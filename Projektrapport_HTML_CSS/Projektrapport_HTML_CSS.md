@@ -9,23 +9,18 @@
 <br>
 
 *****
-<br>
-
 ## HTTP
 
-<br>
-
 Tidslinje på hela konversationen mellan webläsaren och servern för URL http://127.0.0.1:5500/Products/
-<br>
 
 Här kan man se vilken ordning imformationen hämtas, vad för slags fil den hämtat, hur lång tid det tog och vilket svar requestern fick från servern. Statuskoden 200 OK betyder att webläsaren fick det den frågade om. Hade den inte hittat den fil som efterfrågas hade man fått statuskod 404 som svar.
 <br>
 <br>
-<img src="img/timeline.png" width="800"/>
+<img src="img/timeline.png" width="500"/>
 <br>
 <br>
 Webläsaren skickar en GET request metod om att hämta data från servern.
-<img src="img/html_request_respond.png"/>
+<img src="img/html_request_respond.png" width="500"/>
 <br>
 <br>
 Servern skickar tillbaka en response och börjar med att skicka HTML filen. 
@@ -34,37 +29,31 @@ Servern skickar tillbaka en response och börjar med att skicka HTML filen.
 Det är först när webläsaren har fått HTML filen och läst av den som den sedan kan skicka en ny request om att få resten av datan den behöver för att bygga webbsidan.
 <br>
 <br>
-<img src="img/html_response.png" width="800">
-<img src="img/html.png" width="800"/>
+<img src="img/html_response.png" width="500"/>
+<img src="img/html.png" width="500"/>
 <br>
 <br>
 Först frågar den efter bilderna som finns på sidan.
 
-<img src="img/pictures.png" width="800"/>
+<img src="img/pictures.png" width="500"/>
 <br>
 <br>
 Sedan de olika css filerna. Både dom man själv har skrivit och bootstrapen som är länkad från bootstraps egna server.
 
-<img src="img/css.png" width="800"/>
+<img src="img/css.png" width="500"/>
 <br>
 <br>
 Och slutligen så frågar den efter javascript filen.
 
-<img src="img/javascript.png" width="800"/>
+<img src="img/javascript.png" width="500"/>
 <br>
 <br>
 Webläsaren fortsätter att skicka requests fram tills dess att den har fått all information den behöver för att bygga hemsidan.
-<br>
-<br>
 
 *****
-<br>
-
 ## URL
-<br>
 
 http://127.0.0.1:5500/Products/ <br>
-<br>
 
 Schema/protokoll: **http://**
 
@@ -72,45 +61,35 @@ Står för **hypertext transfer protocol** och är det kommunikationsprotokoll s
 
 Ipadress/Domän/Port: **127.0.0.1:5500**
 
-Ipadressen/domän är den servern som efterfrågas. I detta fallet är det en ipadress som webläsaren vill komma åt. Port är den port, i datorn vi försöker komma åt, vi ska använda. Port 5500 är den port som Liveserve använder sig av.
+Ipadressen/domän/port är den web servern/datorn som man vill besöka. I detta fallet är det en ipadress som webläsaren vill komma åt.
 
 Path: **/Products**
 
 Path är den sökväg som används för att komma åt en specifik sida eller fil som finns på den domän man försöker besöka. I mitt fall är det /Products som besöks för att komma åt våra utbildningar som finns på vår hantverkarskola.
-<br>
-<br>
 
 *****
-<br>
-
 ## SEO
-
-<br>
 
 Våran grupp valde att använda oss av sökorden **Utbildning, Hantverk och Göteborg**. Det kändes som an dessa orden va dom mest logiska orden man skulle använda om man ville hitta till våran skola. Jag har testat att googla på just dessa orden och stadsnamn och då hittat olika olika skolor som t.ex. yrkeshögskolor. 
 
 På mina fyra sidor så har jag istället för att använda mig av lorem så kopierade jag utbildningsbeskrivningar m.m. från andra skolsidor och sedan anpassat dom utefter våran information. Det är dock väldigt svårt att få in vissa ord i texten utan att det blir repeterande så har då sett till att det finns andra ord där ordet ingår t.ex **hantverk**et, glas**hantverk** och **hantverk**stekniker. Har haft lite svårt för att hitta om detta är ett korrekt sätt att använda SEO då det står olika på alla sidor man kollar upp.
-<br>
-<br>
 
 *****
-<br>
-
 ## Wireframes
-<br>
 
 **Huvudutbildningssidan Desktopversion**
 <br>
 <br>
-<img src="img/utbildningsstart_desktop.png" width="800"/>
+<img src="img/utbildningsstart_desktop.png" width="500"/>
 <br>
 <br>
+
 **Huvudutbildningssidan Mobilversion**
 
 Innehållet lägger sig under vartannat när man går över till mobilvyn.
 <br>
 <br>
-<img src="img/utbildningsstart_mobile.png" width="300"/>
+<img src="img/utbildningsstart_mobile.png" width="200"/>
 <br>
 <br>
 **Utbildningsbeskrivningssida Desktop/Mobil**
@@ -118,19 +97,10 @@ Innehållet lägger sig under vartannat när man går över till mobilvyn.
 Tanken med denna layouten va att när man går över i mobilvy så skalas bara bild och text ner för att passa en mindre skärm.
 <br>
 <br>
-<img src="img/utbildningsbeskrivning_desktop-mobile.png" width="800"/>
-<br>
-<br>
+<img src="img/utbildningsbeskrivning_desktop-mobile.png" width="500"/>
 
 *****
-
-<br>
-
 ## Reflektion över lösningar 
-
-<br>
-
-Självständigt reflektera över och kritiskt granska de valda lösningarna i projektet gällande design och wireframes, HTML, CSS, samt Bootstrap.
 
 Jag hade ansvaret för produktsidorna, eller i vårt fall utbildningssidorna då vi valde att göra en hemsida för en yrkeshögskola.
 
