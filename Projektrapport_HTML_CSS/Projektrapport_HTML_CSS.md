@@ -15,11 +15,11 @@ Tidslinje på hela konversationen mellan webläsaren och servern för URL http:/
 Här kan man se vilken ordning imformationen hämtas, vad för slags fil den hämtat, hur lång tid det tog och vilket svar requestern fick från servern. Statuskoden 200 OK betyder att webläsaren fick det den frågade om. Hade den inte hittat den fil som efterfrågas hade man fått statuskod 404 som svar.
 <br>
 <br>
-<img src="img/timeline.png" width="500"/>
+<img src="img/timeline.png" width="800"/>
 <br>
 <br>
 Webläsaren skickar en GET request metod om att hämta data från servern.
-<img src="img/html_request_respond.png" width="500"/>
+<img src="img/html_request_respond.png"/>
 <br>
 <br>
 Servern skickar tillbaka en response och börjar med att skicka HTML filen. 
@@ -28,23 +28,23 @@ Servern skickar tillbaka en response och börjar med att skicka HTML filen.
 Det är först när webläsaren har fått HTML filen och läst av den som den sedan kan skicka en ny request om att få resten av datan den behöver för att bygga webbsidan.
 <br>
 <br>
-<img src="img/html_response.png" width="500"/>
-<img src="img/html.png" width="500"/>
+<img src="img/html_response.png" width="800"/>
+<img src="img/html.png" width="800"/>
 <br>
 <br>
 Först frågar den efter bilderna som finns på sidan.
 
-<img src="img/pictures.png" width="500"/>
+<img src="img/pictures.png" width="800"/>
 <br>
 <br>
 Sedan de olika css filerna. Både dom man själv har skrivit och bootstrapen som är länkad från bootstraps egna server.
 
-<img src="img/css.png" width="500"/>
+<img src="img/css.png" width="800"/>
 <br>
 <br>
 Och slutligen så frågar den efter javascript filen.
 
-<img src="img/javascript.png" width="500"/>
+<img src="img/javascript.png" width="800"/>
 <br>
 <br>
 Webläsaren fortsätter att skicka requests fram tills dess att den har fått all information den behöver för att bygga hemsidan.
@@ -76,7 +76,7 @@ På mina fyra sidor så har jag istället för att använda mig av lorem så kop
 **Huvudutbildningssidan Desktopversion**
 <br>
 <br>
-<img src="img/utbildningsstart_desktop.png" width="500"/>
+<img src="img/utbildningsstart_desktop.png" width="800"/>
 <br>
 <br>
 
@@ -85,7 +85,7 @@ På mina fyra sidor så har jag istället för att använda mig av lorem så kop
 Innehållet lägger sig under vartannat när man går över till mobilvyn.
 <br>
 <br>
-<img src="img/utbildningsstart_mobile.png" width="200"/>
+<img src="img/utbildningsstart_mobile.png"/>
 <br>
 <br>
 **Utbildningsbeskrivningssida Desktop/Mobil**
@@ -93,7 +93,7 @@ Innehållet lägger sig under vartannat när man går över till mobilvyn.
 Tanken med denna layouten va att när man går över i mobilvy så skalas bara bild och text ner för att passa en mindre skärm.
 <br>
 <br>
-<img src="img/utbildningsbeskrivning_desktop-mobile.png" width="500"/>
+<img src="img/utbildningsbeskrivning_desktop-mobile.png" width="800"/>
 
 ## Reflektion över lösningar 
 
