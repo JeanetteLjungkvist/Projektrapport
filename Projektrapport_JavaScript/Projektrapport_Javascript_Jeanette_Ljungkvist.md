@@ -54,8 +54,7 @@ alltså den första generationen pokemon `for (let i = 1; i <= 151; i++)`.
 
 I `fetchPokemon()` functionen så använder jag mig av `.map()` metoden för att t.ex.
 hämta hem pokemon typerna. Utan `.map()` metoden hämtades bara första typen hem, 
-med den så hämtades flera typer hem om pokemon hade fler typer än en t.ex **psychic, fairy**
-istället för bara **psychic**. `.map()` gör 
+med den så hämtades flera typer hem om pokemon hade fler typer än en t.ex **psychic, fairy** istället för bara **psychic**. `.map()` gör 
 att man får en ny array med modifierade element.
 
 Hade från början skrivit en fetch för `fetchModalInfo()` som var väldigt lik den i
