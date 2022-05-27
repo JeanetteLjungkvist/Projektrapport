@@ -13,13 +13,13 @@
 
 Den agila arbetsprocessen är en som drivs in små iterationer. Man arbetar på en liten bit i taget av projektet där man konstant utvecklar, testar, releasar och utvärderar. Anledningen till att man jobbar i små iterationer är för att man ska kunna vara anpassningsbar till förändringar och för att det lättare ska gå att snappa upp eventuella buggar under projektets gång.
 
-Det börjar med ett sprintplaneringsmöte. Här bestämmer product ownern vilka user stories som ska prioriteras inför den kommande sprinten. Stories delas upp till mindre features för att bli lättare att tackla. 
+Det börjar med ett **sprintplaneringsmöte**. Här bestämmer product ownern vilka user stories som ska prioriteras inför den kommande sprinten. Stories delas upp till mindre features för att bli lättare att tackla. 
 
-Sedan påbörjar man den så kallade sprinten. Sprinten är "timeboxad" ock kan vara så lång man vill, men ofta 2-4 veckor. Vissa projekt kanske kräver längre sprintperiod. Under sprintperioden så har man dagliga scrum möten. Ett kort litet möte där alla i utvecklingsteamet får göra en snabb liten uppdatering på vad dom gjort sedan senast, vad dom ska arbeta på under dagen och eventuella problem dom stött på. När sprintperioden är klar så ska det finnas ett fungerande inkrement som ska kunna uppvisas för stakeholdern. 
+Sedan påbörjar man den så kallade **sprinten**. Sprinten är "timeboxad" ock kan vara så lång man vill, men ofta 2-4 veckor. Vissa projekt kanske kräver längre sprintperiod. Under sprintperioden så har man **dagliga scrum** möten. Ett kort litet möte där alla i utvecklingsteamet får göra en snabb liten uppdatering på vad dom gjort sedan senast, vad dom ska arbeta på under dagen och eventuella problem dom stött på. När sprintperioden är klar så ska det finnas ett fungerande inkrement som ska kunna uppvisas för stakeholdern. 
 
-Sedan gör man en sprint review där stakeholdern blir inbjuden och man går igenom inkrementet. Man sammlar in feedback. Behövs redigering med backloggen göras så görs det här. 
+Sedan gör man en **sprint review** där stakeholdern blir inbjuden och man går igenom inkrementet. Man sammlar in feedback. Behövs redigering med backloggen göras så görs det här. 
 
-Efter det så gör man en sprint retrospective. Detta mötet är endast mellan scrum mastern och utvecklingsteamet. Man reflekterar över arbetsprocessen och eventuella ändringar sker. Kanske var sprinten för lång eller det kanske var för många features teldelade till sprinten.
+Efter det så gör man en **sprint retrospective**. Detta mötet är endast mellan scrum mastern och utvecklingsteamet. Man reflekterar över arbetsprocessen och eventuella ändringar sker. Kanske var sprinten för lång eller det kanske var för många features teldelade till sprinten.
 
 Sen börjar man processen på nytt med en ny sprint och fortsätter tills igenom dom olika stegen så många gånger det behövs tills man har en bra slutprodukt.
 
@@ -51,4 +51,7 @@ Man börjar med att fylla backloggen med en massa User Stories. Dom läggs i ord
 Det är bra att tidsestimera sina stories så att man har en god idee om hur många stories man hinner tackla under en sprint period. Ett väleteblerat team har oftast ett bättre hum om hur mycket man hinner med i sitt team än vad en grupp med nyetablerat team har.
 
 Ett sätt att tidsestimera är att sätta ett värde på alla stories man har. Det kan vara att man estimerar hur lång tid det tar att göra en viss feature. Tar det timmar eller kanske dagar att göra den?. Man kan även estimera dens svårighetsgrad utefter en skala man väljer, ofta Fibonacci skala (1, 2, 3, 5, 8, 13). Det blir lättare att välja vilka issues man ska arbeta på då så att man inte väljer för många issues med för hög svårighetsgrad och då riskerar att inte hinna med så mycket. Helst ska det finnas en bra blandning mellan olika svårighetsgrader.
-.
+
+<br>
+
+Jeanette Ljungkvist 27/5-2022
