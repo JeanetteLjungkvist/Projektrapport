@@ -277,6 +277,8 @@ Vi kör Sprint review och sprint retrospektive imorgon kl 09.00.
 
 1,5 h
 
+Jag agerade som Product Owner.
+
 Vi gick igenom och demonstrerade alla issues vi hann med denna sprinten för stakeholdern.
 
 Stakeholdern gav feedback på vad som var bra och vad som behövs förbättras till nästa sprint.
@@ -304,9 +306,11 @@ Fixa mer med identity så att man kan registrers personers namn och adress m.m.
 
 1 h
 
-Vi fyllde i en kanban utefter segelbåtsmetoden. Kom överrens om action till nästa sprint för att förbättra till nästa sprint. 
+Vi fyllde i en kanban utefter segelbåtsmetoden. Kom överrens om action till nästa sprint för att förbättra sprint 3. 
 
-Vi ska förbättra kommunikationen och försöka ha en levande diskission. Även försöka implementera fikastund då vi inte lyckades få till det en enda gång under sprint 2.
+Vi ska förbättra kommunikationen och försöka ha en levande diskussion. Våga säga till omman inte håller med om något. 
+
+Även försöka implementera fikastund då vi inte lyckades få till det en enda gång under sprint 2.
 
 Pushade upp vårt arbete till main.
 
