@@ -6,7 +6,6 @@
 
 Man skulle kunna ha lagt till en modell-klass för den andra versionen.
 Jag valde att modifiera min Comment-model så att den även innehöll en Title-property och har sedan användt mig av DTO-klasser för att få dom olika versionerna att fungera som dom ska. 
- 
 
 <br>
 
