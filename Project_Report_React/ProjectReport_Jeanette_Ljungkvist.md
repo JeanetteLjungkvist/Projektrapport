@@ -41,6 +41,7 @@ We used a useState hook in our Shop.jsx component that allows you to add a cours
   };
 ```
 <br>
+<br>
 
 ## Props
 
@@ -77,6 +78,7 @@ Our page qualify as a SPA since our webpage uses only one html page. With the us
     </Routes>
   </BrowserRouter>
 ```
+<br>
 <br>
 
 ## Responsive/Component library
