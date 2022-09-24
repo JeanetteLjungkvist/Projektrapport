@@ -1,6 +1,6 @@
 # React Project Report
 
-![](2022-09-23-16-09-27.png)
+<br>
 
 ## API
 In our group we decided to build a webshop where we sold coding classes.
@@ -16,6 +16,7 @@ var courseData = [
     image: "https://i.ibb.co/0jHqtM0/javascript.png",
   },
 ```
+<br>
 
 ## Hooks
 
@@ -29,10 +30,9 @@ useEffect(() => {
 
 ![](2022-09-23-16-40-49.png)
 
-We used a useState hook in our Shop.jsx component.
+We used a useState hook in our Shop.jsx component that allows you to add a course to the cart and update the order summary.
 
 ```
-const [course] = useState(courseData);
   const [cart, setCart] = useState([]);
 
   const handleCourse = (course) => {
@@ -40,12 +40,30 @@ const [course] = useState(courseData);
     setCart(newCart);
   };
 ```
+<br>
 
 ## Props
 
+We use props in for example our Course.jsx component. The prop allows us to add the images, course title, instructor and price that are stored in our databas to the cards displaying our courses.
+
+```
+const Course = (props) => {
+  const { name, price, instructor, image } = props.course;
+  return (
+    <Container fluid>
+      <Stack direction="horizontal" gap={5}>
+        <Card className="card-style">
+          <Card.Img variant="top" src={image} className="course-img" />
+          <Card.Body>
+            <Card.Title>
+              Couse Title: <span className="course-name">{name}</span>
+            </Card.Title>
+```
+<br>
+
 ## SPA
 
-Our page qualify as a SPA. Our webpage uses only one html page and with the use of routing and different components we have built that index.html page gets rewrittet every time you go to a new page.
+Our page qualify as a SPA since our webpage uses only one html page. With the use of routing and different components we have built the index.html page located in the public folder gets rewrittet every time you go to a new page instead of having seperate html pages for each page you visit.
 
 ![](2022-09-23-17-00-18.png)
 
@@ -59,6 +77,7 @@ Our page qualify as a SPA. Our webpage uses only one html page and with the use 
     </Routes>
   </BrowserRouter>
 ```
+<br>
 
 ## Responsive/Component library
 In order for our webpage to be responsive we used a couple different methods. For some components, for example the navbar and the cards displaying our courses, we used react bootstrap. On other components we used flex box and media queries, for example on the footer and the about us page.
@@ -93,6 +112,9 @@ import { Button, Card, Container, Stack } from "react-bootstrap";
 } 
 ```
 
+<br>
+
+### By: Jeanette Ljungkvist
 
 
 
