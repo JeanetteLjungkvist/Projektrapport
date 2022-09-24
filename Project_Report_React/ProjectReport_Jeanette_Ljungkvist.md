@@ -114,10 +114,6 @@ import { Button, Card, Container, Stack } from "react-bootstrap";
 } 
 ```
 
-<br>
-
-### By: Jeanette Ljungkvist
-
 
 
 
